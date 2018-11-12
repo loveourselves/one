@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="icon" href="/logo/favicon.ico">
+		<style>
+			div#box label#ver{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			手机号:<input type="text" id="phone" />
+			<button type="button" disabled>发送验证码</button>
+			<label id="ver">
+				验证码:<input type="text" id="verCode" />
+				<button type="button" id="login">登录</button>
+			</label>
+		</div>
+		<script src="/js/jquery-1.11.3.min.js"></script>
+		<script src="/regLogin/regLogin.js"></script>
+	</body>
+</html>
